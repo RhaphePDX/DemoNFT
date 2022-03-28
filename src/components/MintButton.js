@@ -30,7 +30,7 @@ const MintButton = () => {
     }
   }
 
-  return <button onClick={askContractToMintNft} className="cta-button connect-wallet-button">Mint NFT</button>
+  return <button onClick={askContractToMintNft} className="cta-button connect-wallet-button p-5 bg-red-600 text-white mt-10">Mint NFT</button>
 }
 
 export default MintButton
